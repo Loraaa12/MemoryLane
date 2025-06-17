@@ -1,0 +1,220 @@
+За#ача: Ра(рабо,-а на уеб, моб34но 343 data engineering/data analytics соф,уерно 
+Dр34оEен3е, -ое,о 3ма с4е#н3,е е4емен,3: 
+- 
+Back-end API 
+- 
+Front-end 
+- 
+Database (SQL or NoSQL) 
+- 
+Docker, CI/CD 
+Кр3,ер33 (а оXен-а: 
+No. 
+Кр3,ер3Z 
+Точ-3 
+1 
+Це% на (рое+,а - .еф-н-0-я на фун+0-она%нос,-,е 
+10 
+1.1 
+Це4,а на Dрое-,а е ясно 3 3(черDа,е4но #еф3н3рана 
+2 
+1.2 
+Осноaн3,е фун-X3она4нос,3 са оD3сан3 -а,о user stories 
+https://www.atlassian.com/agile/project-management/user-stories  
+4 
+1.3. 
+Осноaн3,е Dо,реб3,е43 3 нач3нъ, 3м на рабо,а със с3с,ема,а са 
+оD3сан3 -а,о use cases 
+https://www.ﬁgma.com/resource-library/what-is-a-use-case/  
+https://medium.com/@queen_shecoder/understanding-use-cases-
+e72211b1b236 
+4 
+2 
+И7бор на ,ехно%о:-- - соф,уерна арх-,е+,ура 
+10 
+2.1 
+И(бран3,е ,ехно4оs33 са Dо#хо#яt3 (а реа43(3ране на Dрое-,а 
+2 
+2.2 
+И(бран е -он-ре,ен мо#е4 соф,уерна арх3,е-,ура 3 е обосноaан 3(бора 
+https://www.geeksforgeeks.org/types-of-software-architecture-patterns/  
+2 
+2.3 
+Пр34оEен3е,о е ра(#е4ено на мо#у43/-омDонен,3 с ясн3 aръ(-3 3 
+-омун3-аX3я меE#у ,ях, оD3сан3 a арх3,е-,урна #3аsрама 
+4 
+2.4 
+Арх3,е-,ура,а Dо(aо4яaа Dр34оEен3е,о #а бъ#е ра(x3ряaано 3 
+Dо##ърEано a бъ#еtе 
+2 
+3 
+Сре.а 7а рабо,а - у(ра=%ен-е на +о.а 
+10 
+3.1 
+Съ(#а#ено GitHub repository 
+2 
+3.2 
+По aреме на рабо,а са 3(Dо4(aан3 feature branches 3 pull requests 
+4 
+3.3 
+Рабо,а,а е ра(#е4ена на о,#е4н3 (а#ач3 a GitHub (Issues) 
+2 
+3.4 
+Само необхо#3м3,е фаZ4оaе 3 ресурс3 са #обаaен3 a git 
+2 
+4 
+Реа%-7а0-я на (рое+,а 
+40 
+4.1 
+СDа(ена е 3(брана,а соф,уерна арх3,е-,ура 
+2 
+4.2 
+И(Dо4(aан3 са #обр3 Dра-,3-3 3 design patterns 
+https://refactoring.guru/design-patterns  
+2 
+4.3 
+СDа(ен3 са Dр3нX3D3,е на ООП (а ен-аDсу4аX3я 3 абс,ра-X3я Dр3 
+3мD4емен,аX3я,а на о,#е4н3,е -4асоaе/-омDонен,3 
+2 
+4.4 
+СDа(ен е separation of concerns Dр3нX3Dа Dр3 3мD4емен,аX3я,а на 
+ра(43чн3,е мо#у43/-омDонен,3 о, с3с,ема,а 
+https://www.geeksforgeeks.org/separation-of-concerns-soc/  
+https://nalexn.github.io/separation-of-concerns/  
+2 
+4.5 
+СDа(ен е single responsibility Dр3нX3Dа 
+https://stackify.com/solid-design-principles/  
+2 
+4.6 
+СDа(ен е dependency inversion Dр3нX3Dа 
+https://stackify.com/dependency-inversion-principle/  
+2 
+
+4.7 
+Пуб43чн3я, 3н,ерфеZс е #о-умен,3ран чре( Swagger 343 е-a3aа4ен,но 
+реxен3е 
+https://swagger.io/  
+2 
+4.8 
+СDа(ен3 са REST Dр3нX3D3,е Dр3 #еф3н3ране на Dуб43чн3я 3н,ерфеZс 
+https://stackoverﬂow.blog/2020/03/02/best-practices-for-rest-api-design/  
+2 
+4.9 
+СDа(ен3 са Dраa34а,а 3 #обр3,е Dра-,3-3 Dр3 #3(аZна на ба(3 #анн3 
+10 
+4.10 
+Мо#е4ъ, на #анн3,е е #обре #еф3н3ран 3 ба(а,а #анн3 е норма43(3рана 
+(Dр3 3(Dо4(aане на SQL) 343 -о4е-X33,е са #обре орsан3(3ран3 3 ясн3 
+aръ(-3,е меE#у ,ях (Dр3 3(Dо4(aане на NoSQL) 
+https://support.microsoft.com/en-us/o‡ice/database-design-basics-eb2159cf-
+1e30-401a-8084-bd4f9c9ca1f5  
+https://www.guvi.com/blog/database-design-principles-and-best-practices/  
+4 
+4.11 С3с,ема,а е (аt3,ена о, DоDу4ярн3 a3#оaе а,а-3 (наDр. SQL Injection) 
+2 
+4.12 
+С3с,ема,а 3ма на#еE#ен нач3н (а обрабо,-а на sреx-3 3 неDре#a3#ен3 
+съб3,3я 
+https://developers.google.com/tech-writing/error-messages/error-handling  
+https://blog.postman.com/best-practices-for-api-error-handling/  
+2 
+4.13 
+Конф3sураX3онн3 Dараме,р3, -онс,ан,3 3 environment Dромен43a3 се 
+уDраa4яaа, Dо на#еE#ен нач3н 
+https://dev.to/khalidk799/environment-variables-its-best-practices-1o1o 
+2 
+4.14 Ко#ъ, моEе #а се Dре3(Dо4(aа, няма Dоa,орен3я 3 няма не3(Dо4(aан -о# a 
+Dрое-,а 
+2 
+4.15 
+Няма Dре-а4ено -омD4е-сн3 3 с4оEн3 ме,о#3 343 фун-X33 a -о#а, -о3,о #а 
+,ру#н3 (а ра(б3ране 3 Dрос4е#яaане 343 #а 3(Dо4(aа, необосноaано 
+-о43чес,aо ресурс3 
+2 
+5 
+Тес,=ане 
+10 
+5.1 
+НаD3сан3 са unit ,ес,оaе на осноaн3,е -омDонен,3 a с3с,ема,а 
+5 
+5.2 
+‰еф3н3ран3 са сXенар33 (а ,ес,aане на с3с,ема,а о, s4е#на ,оч-а на 
+Dо,реб3,е4 
+https://www.browserstack.com/guide/user-acceptance-testing-template  
+5 
+6 
+Качес,=о - ч-с,о,а на +о.а 
+10 
+6.1 
+СDа(ен3 са е#на-a3 -онaенX33 (а с,343(аX3я 3 Dо#реE#ане на -о#а a 
+Xе43я Dрое-, 
+2 
+6.2 
+Ко#ъ, е #обре Dо#ре#ен, ясен (а че,ене 3 3ма -омен,ар3 -ъ#е,о е нуEно 
+2 
+6.3 
+‰обаaена е аa,ома,3чна aа43#аX3я (а Dр34аsане,о на с,343(аX3я,а 
+https://webapp.io/blog/linting-best-practices/  
+2 
+6.4 
+‰обаaен е с,а,3ен ана43( на -о#а 
+https://www.sonarsource.com/products/sonarcloud/  
+4 
+7 
+Deployment - DevOps 
+20 
+7.1 
+Пр34оEен3е,о е 3нс,а43рано на сърaър/cloud 
+6 
+7.2 
+Съ(#а#ена е deployment #3аsрама (а необхо#3м3,е 3 3(Dо4(aан3 ресурс3 
+https://www.visual-paradigm.com/guide/uml-uniﬁed-modeling-language/what-
+is-deployment-diagram/  
+2 
+7.3 
+Пр34оEен3е,о е -он,еZнер3(3рано с Docker 
+6 
+7.4 
+И(Dо4(aан3 са GitHub Actions 343 а4,ерна,3aен CI/CD pipeline 
+6 
+8 
+С+а%-руемос, - (ро-7=о.-,е%нос, на с-с,ема,а 
+10 
+
+8.1 
+Не са на43Xе сер3о(н3 Dроб4ем3 a Dо##ръE-а,а на sо4ям броZ 
+Dо,реб3,е43 343 обем3 о, (аяa-3/#анн3 
+6 
+8.2 
+Реа43(аX3я,а на с3с,ема,а Dо(aо4яaа хор3(он,а4но 3 aер,3-а4но 
+с-а43ране 
+https://www.digitalocean.com/resources/articles/horizontal-scaling-vs-vertical-
+scaling  
+4 
+9 
+Uо+умен,а0-я, (ре7ен,а0-я - 7аW-,а на (рое+,а 
+30 
+9.1 
+И(sо,aена -ра,-а #о-умен,аX3я на Dрое-,а (5-10 с,ран3X3) 
+5 
+9.2 
+С,еDен на (аaърxенос, на Dрое-,а 
+5 
+9.3 
+О,sоaор3 на aъDрос3 3 (аt3,а на Dрое-,а 
+20 
+ 
+ОXеняaане: 
+- 
+Ма-с3ма4ен броZ ,оч-3: 150 
+- 
+На# 125 ,оч-3: О,43чен (6) 
+- 
+МеE#у 110 3 124 ,оч-3: Мноsо #обър (5) 
+- 
+МеE#у 85 3 99 ,оч-3: ‰обър (4) 
+- 
+МеE#у 70 3 84 ,оч-3: Сре#ен (3) 
+ 
+Сро+: 01.06.2025 

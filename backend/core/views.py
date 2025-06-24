@@ -17,35 +17,35 @@ class SurpriseItemViewSet(viewsets.ModelViewSet):
 
     @action(detail=False, methods=['get'])
     def random(self, request):
-        # Check if there's a recent view
+        # Get IDs of all items that have been viewed
+        viewed_item_ids = ViewedSurprise.objects.values_list('item_id', flat=True)
+        
+        # Get all items that are not in the viewed list
+        available_items = SurpriseItem.objects.exclude(id__in=viewed_item_ids)
+
+        # If no items are left, return the specific message
+        if not available_items.exists():
+            return Response({'error': 'no available surprises'}, status=status.HTTP_404_NOT_FOUND)
+
+        # Check for cooldown based on the most recent view
         last_view = ViewedSurprise.objects.order_by('-viewed_at').first()
         if last_view:
             time_since_last_view = timezone.now() - last_view.viewed_at
-            if time_since_last_view < timedelta(seconds=30):
+            cooldown_seconds = 15
+            if time_since_last_view < timedelta(seconds=cooldown_seconds):
                 return Response({
                     'error': 'Please wait before viewing another surprise',
-                    'seconds_remaining': 30 - time_since_last_view.seconds
+                    'seconds_remaining': cooldown_seconds - time_since_last_view.seconds
                 }, status=status.HTTP_429_TOO_MANY_REQUESTS)
 
-        # Get all items that haven't been viewed
-        viewed_items = ViewedSurprise.objects.values_list('item_id', flat=True)
-        available_items = SurpriseItem.objects.exclude(id__in=viewed_items)
-
-        # If all items have been viewed, reset by clearing viewed items
-        if not available_items.exists():
-            ViewedSurprise.objects.all().delete()
-            available_items = SurpriseItem.objects.all()
-
-        # Select a random item
-        if available_items.exists():
-            random_item = random.choice(list(available_items))
-            serializer = self.get_serializer(random_item)
-            return Response(serializer.data)
-        
-        return Response({'error': 'No surprise items available'}, status=status.HTTP_404_NOT_FOUND)
+        # If cooldown has passed, select a random item from the available ones
+        random_item = random.choice(list(available_items))
+        serializer = self.get_serializer(random_item)
+        return Response(serializer.data)
 
     @action(detail=True, methods=['post'])
     def view(self, request, pk=None):
         item = self.get_object()
-        ViewedSurprise.objects.create(item=item)
+        # Use get_or_create to prevent creating duplicate view entries
+        ViewedSurprise.objects.get_or_create(item=item)
         return Response({'status': 'success'})

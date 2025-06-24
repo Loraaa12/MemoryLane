@@ -3,7 +3,7 @@ from rest_framework.routers import DefaultRouter
 from .views import SurpriseItemViewSet
 
 router = DefaultRouter()
-router.register(r'surprise-items', SurpriseItemViewSet)
+router.register(r'surprises', SurpriseItemViewSet, basename='surprise')
 
 urlpatterns = [
     path('', include(router.urls)),

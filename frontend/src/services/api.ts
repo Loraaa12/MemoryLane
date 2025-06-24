@@ -1,7 +1,9 @@
 import axios from 'axios';
 import { SurpriseItem, NewSurpriseItem } from '../types';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = process.env.NODE_ENV === 'production'
+  ? 'https://memory-lane-eight.vercel.app/api'
+  : 'http://localhost:8000/api';
 
 export const api = {
   // Get all items
